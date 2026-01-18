@@ -16,7 +16,7 @@ if st.button("hitung"):
     try:
         f = sp.lambdify(x, sp.sympify(fungsi), "numpy")
         h = (b - a) / n
-        x_val = np.linspace(a, b n+1)
+        x_val = np.linspace(a, b, n+1)
         y_val = f(x_val)
 
         hasil = (h/2) * (y_val[0] + 2*sum(y_val[1:-1]) + y_val[-1])
