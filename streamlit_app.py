@@ -1,6 +1,6 @@
 import streamlit as st
 import numpy as np
-import synpy as sp
+import sympy as sp
 import matplotlib.pyplot as plt
 
 st.title("trapesium")
