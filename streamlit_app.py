@@ -28,4 +28,4 @@ if st.button("hitung"):
         st.pyplot(fig)
 
     except:
-        st.error)"Fungsi tidak valid")
+        st.error("Fungsi tidak valid")
